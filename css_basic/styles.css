@@ -1,0 +1,38 @@
+* {
+    color: #090b2ce3;
+}
+
+body,
+main {
+    display: flex;
+}
+
+body {
+    background-color: #b6b6b6;
+    flex-direction: column;
+}
+
+main {
+    flex: auto;
+    flex-direction: row;
+    border: 2px solid #285052;
+}
+
+article,
+aside {
+    overflow-y: auto;
+}
+
+article {
+    flex: 2;
+}
+
+aside {
+    background-color: #285052;
+    flex: 1;
+}
+
+.logo-icon {
+    background-color: #bb7a7a;
+    border-radius: 50%;
+}
