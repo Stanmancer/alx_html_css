@@ -4,243 +4,294 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Advanced</title>
+    <title>CSS Advanced</title>
+
+    <link rel="stylesheet" href="font/webfontkit-source-sans-pro/fontsheet.css">
+    <link rel="stylesheet" href="font/holberton_school-icon/fontsheet.css">
 
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
-        <a href="#"><img src="https://intranet.alxswe.com/assets/holberton-logo-full-alx-d053727941512ebe04b797ca87d81a195004e9ff2d8a6aedf4004c5365cf8944.png" alt="alx-logo"></a>
-
-        <div>
-            <a href="#">link-1</a>
-            <a href="#">link-2</a>
-            <a href="#">link-2</a>
-        </div>
-    </header>
-
     <main>
         <!-- Banner Section -->
-        <section>
-            <div>
-                <h1>A heading Tag</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, architecto.</p>
+        <section class="banner-section">
+            <div class="container">
+                <header>
+                    <a href="#"><img src="./img/logo.svg" alt="alx-logo" class="logo"></a>
 
-                <button type="submit">button</button>
-            </div>
-
-            <div>
-                <h2>Another Heading Tag</h2>
-                <div>
-                    <div>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJLdLLaJj6M8Zt2dkPC3CViYOd6ocOW40w1w&usqp=CAU" alt="image-1">
-                        <h3>heading tag-1</h3>x
-                        <p>Lorem ipsum dolor sit amet.</p>
+                    <div class="links">
+                        <a href="#">COURSES</a>
+                        <a href="#">PRICING</a>
+                        <a href="#">LOGIN</a>
                     </div>
+                </header>
 
-                    <div>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxDKfMgGwEUMwDpVgmB5mjR9Y-HXJvM8pY9g&usqp=CAU" alt="image-2">
-                        <h3>heading tag-2</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
+                <div class="container banner-main">
+                    <h1>Get schooled</h1>
+                    <span>
+                        <p>SMILES</p>
+                        <p>GRIN</p>
+                        <p>LAUGH</p>
+                    </span>
 
-                    <div>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjvVDH7oXEmRIujZ0PcYMe6RNel731UipEOg&usqp=CAU" alt="image-3">
-                        <h3>heading tag-3</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
+                    <button type="submit">REGISTER FOR FREE</button>
+                </div>
 
-                    <div>
-                        <img src="https://images.pexels.com/photos/2853432/pexels-photo-2853432.jpeg?cs=srgb&dl=pexels-ethan-sees-2853432.jpg&fm=jpg" alt="image-4">
-                        <h3>heading tag-4</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                <div class="container banner-pros">
+                    <h2><span>Learn</span> from the pros</h2>
+                    <div class="pros">
+                        <div class="pros_1">
+                            <img src="img/Henry.svg" alt="henry-hughes">
+                            <h3>Henry Hughes</h3>
+                            <p>« 24h smiles » winner 2016 - 2019</p>
+                        </div>
+
+                        <div class="pros_2">
+                            <img src="img/Bruce.svg" alt="Bruce-walters">
+                            <h3>Bruce Walters</h3>
+                            <p>Best « Friend Smile » life perfomance 2019</p>
+                        </div>
+
+                        <div class="pros_3">
+                            <img src="img/Nannie.svg" alt="Nannie-lawrence">
+                            <h3>Nannie Lawrence</h3>
+                            <p>Best « little smile » 2017</p>
+                        </div>
+
+                        <div class="pros_4">
+                            <img src="img/Phillip.svg" alt="Phillip-massey" width="100%">
+                            <h3>Phillip Massey</h3>
+                            <p>« Smile of the year » 2018 - 2019</p>
+                        </div>
                     </div>
                 </div>
             </div>
+            </div>
         </section>
         <!-- End of banner -->
-        
+
         <!-- Quote Section -->
-        <section>
-            <div>
-                <img src="https://www.drawing123.com/wp-content/uploads/2022/12/drawing-Uchiha-Madara-step-12.jpg" alt="Author image">
+        <section class="quote-section">
+            <div class="container testimonial">
+                <img src="img/Madara.png" alt="Author image">
 
-                <div>
-                    <blockquote>The longer you live, the more you realize that the only things that truly exists in this world are merely pain suferring and futilty</blockquote>
+                <div class="quote">
+                    <blockquote>« The longer you live, the more you'll realize that the only things that truly exists in this world are merely pain, suferring and futilty...</blockquote>
 
-                    <p>Madara Uchiha</p>
+                    <p>Uchiha Madara</p>
                     <p>The Ghost of Uchiha</p>
                 </div>
             </div>
         </section>
         <!-- End of quote -->
 
-        <!-- Video section -->
-        <section>
-            <h3>Video section</h3>
+        <!-- Tutorial section -->
+        <section class="tutorials-section">
+            <div class="container tutorials">
+                <h3>Most <span>popular</span> tutorials</h3>
 
-            <div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxDKfMgGwEUMwDpVgmB5mjR9Y-HXJvM8pY9g&usqp=CAU" alt="video image">
+                <div class="video-tutorials">
+                    <div class="tuts-card tuto-1">
+                        <div class="tut-vid">
+                            <img src="img/Diagonal_smile.svg" alt="Diagonal Smile">
+                        </div>
 
-                <h3>Video heading-1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nobis aut quis nesciunt neque doloremque? Harum aliquam hic debitis! Nihil?</p>
+                        <div class="tuts-title">
+                            <h3>Diagonal Smile</h3>
+                            <p> Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                        </div>
 
-                <div>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxDKfMgGwEUMwDpVgmB5mjR9Y-HXJvM8pY9g&usqp=CAU" alt="author image">
+                        <div class="tut-author">
+                            <img src="img/Phillip.svg" alt="Phillip Massey">
 
-                    <h3>Author-1</h3>
-                </div>
+                            <p>Phillip Massey</p>
+                        </div>
 
-                <div>
-                    <div><img src="#" alt="1-star"></div>
-                    <div><img src="#" alt="2-star"></div>
-                    <div><img src="#" alt="3-star"></div>
-                    <div><img src="#" alt="4-star"></div>
-                    <div><img src="#" alt="5-star"></div>
-
-                    <p>Lorem</p>
-                </div>
-            </div>
-
-            <div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxDKfMgGwEUMwDpVgmB5mjR9Y-HXJvM8pY9g&usqp=CAU" alt="video image">
-
-                <h3>Video heading-2</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nobis aut quis nesciunt neque doloremque? Harum aliquam hic debitis! Nihil?</p>
-
-                <div>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxDKfMgGwEUMwDpVgmB5mjR9Y-HXJvM8pY9g&usqp=CAU" alt="author image">
-
-                    <h3>Author-2</h3>
-                </div>
-
-                <div>
-                    <div><img src="#" alt="2-star"></div>
-                    <div><img src="#" alt="1-star"></div>
-                    <div><img src="#" alt="3-star"></div>
-                    <div><img src="#" alt="4-star"></div>
-                    <div><img src="#" alt="5-star"></div>
-
-                    <p>Lorem</p>
-                </div>
-            </div>
-
-            <div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxDKfMgGwEUMwDpVgmB5mjR9Y-HXJvM8pY9g&usqp=CAU" alt="video image">
-
-                <h3>Video heading-3</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nobis aut quis nesciunt neque doloremque? Harum aliquam hic debitis! Nihil?</p>
-
-                <div>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxDKfMgGwEUMwDpVgmB5mjR9Y-HXJvM8pY9g&usqp=CAU" alt="author image">
-
-                    <h3>Author-3</h3>
-                </div>
-
-                <div>
-                    <div><img src="#" alt="1-star"></div>
-                    <div><img src="#" alt="2-star"></div>
-                    <div><img src="#" alt="3-star"></div>
-                    <div><img src="#" alt="4-star"></div>
-                    <div><img src="#" alt="5-star"></div>
-
-                    <p>Lorem</p>
-                </div>
-            </div>
-
-            <div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxDKfMgGwEUMwDpVgmB5mjR9Y-HXJvM8pY9g&usqp=CAU" alt="video image">
-
-                <h3>Video heading-4</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nobis aut quis nesciunt neque doloremque? Harum aliquam hic debitis! Nihil?</p>
-
-                <div>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxDKfMgGwEUMwDpVgmB5mjR9Y-HXJvM8pY9g&usqp=CAU" alt="author image">
-
-                    <h3>Author-4</h3>
-                </div>
-
-                <div>
-                    <div><img src="#" alt="1-star"></div>
-                    <div><img src="#" alt="2-star"></div>
-                    <div><img src="#" alt="3-star"></div>
-                    <div><img src="#" alt="4-star"></div>
-                    <div><img src="#" alt="5-star"></div>
-
-                    <p>Lorem</p>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h2>Membership section</h2>
-
-            <div>
-                <div>
-                    <img src="www.w.com" alt="member-1">
-                    <h3>member-1</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div>
-                    <img src="www.w.com" alt="member-2">
-                    <h3>member-2</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div>
-                    <img src="www.w.com" alt="member-3">
-                    <h3>member-3</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div>
-                    <img src="www.w.com" alt="member-4">
-                    <h3>member-4</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                </div>
-
-                <button type="submit">Button</button>
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <div>
-                    <div>
-                        <h2>heading-1</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sit!</p>
+                        <div class="rev-time">
+                            <div class="star-rating">
+                                <div class="holberton_school-icon-star star-1"></div>
+                                <div class="holberton_school-icon-star star-2"></div>
+                                <div class="holberton_school-icon-star star-3"></div>
+                                <div class="holberton_school-icon-star star-4"></div>
+                                <div class="holberton_school-icon-star star-5"></div>
+                            </div>
+                            <p>8 mins</p>
+                        </div>
                     </div>
-                    <div>
-                        <h2>heading-2</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sit!</p>
-                    </div>
-                </div>
 
-                <div>
-                    <div>
-                        <h2>heading-3</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sit!</p>
+                    <div class="tuts-card tuto-2">
+                        <div class="tut-vid">
+                            <img src="img/Sad_smile.svg" alt="Sad Smile">
+                        </div>
+
+                        <div class="tuts-title">
+                            <h3>Sad Smile</h3>
+                            <p> Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                        </div>
+
+                        <div class="tut-author">
+                            <img src="img/Phillip.svg" alt="Phillip Massey">
+
+                            <p>Phillip Massey</p>
+                        </div>
+
+                        <div class="rev-time">
+                            <div class="star-rating">
+                                <div class="holberton_school-icon-star star-1"></div>
+                                <div class="holberton_school-icon-star star-2"></div>
+                                <div class="holberton_school-icon-star star-3"></div>
+                                <div class="holberton_school-icon-star star-4"></div>
+                                <div class="holberton_school-icon-star star-5"></div>
+                            </div>
+                            <p>8 mins</p>
+                        </div>
                     </div>
-                    <div>
-                        <h2>heading-4</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sit!</p>
+
+                    <div class="tuts-card tuto-3">
+                        <div class="tut-vid">
+                            <img src="img/Natural_smile.svg" alt="Natural Smile">
+                        </div>
+
+                        <div class="tuts-title">
+                            <h3>Natural Smile</h3>
+                            <p> Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                        </div>
+
+                        <div class="tut-author">
+                            <img src="img/Phillip.svg" alt="Phillip Massey">
+
+                            <p>Phillip Massey</p>
+                        </div>
+
+                        <div class="rev-time">
+                            <div class="star-rating">
+                                <div class="holberton_school-icon-star star-1"></div>
+                                <div class="holberton_school-icon-star star-2"></div>
+                                <div class="holberton_school-icon-star star-3"></div>
+                                <div class="holberton_school-icon-star star-4"></div>
+                                <div class="holberton_school-icon-star star-5"></div>
+                            </div>
+                            <p>8 mins</p>
+                        </div>
+                    </div>
+
+                    <div class="tuts-card tuto-4">
+                        <div class="tut-vid">
+                            <img src="img/Happy_smile.svg" alt="Happy Smile">
+                        </div>
+
+                        <div class="tuts-title">
+                            <h3>Happy Smile</h3>
+                            <p> Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                        </div>
+
+                        <div class="tut-author">
+                            <img src="img/Phillip.svg" alt="Phillip Massey">
+
+                            <p>Phillip Massey</p>
+                        </div>
+
+                        <div class="rev-time">
+                            <div class="star-rating">
+                                <div class="holberton_school-icon-star star-1"></div>
+                                <div class="holberton_school-icon-star star-2"></div>
+                                <div class="holberton_school-icon-star star-3"></div>
+                                <div class="holberton_school-icon-star star-4"></div>
+                                <div class="holberton_school-icon-star star-5"></div>
+                            </div>
+                            <p>8 mins</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- End of tutorials -->
+
+        <!-- Membership section -->
+        <section class="membership-section">
+            <div class="container membership-container">
+                <h2><span>Free</span> Membership</h2>
+
+                <div class="mem-plans">
+                    <div>
+                        <img src="img/smile.svg" alt="member-1">
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div>
+                        <img src="img/smile.svg" alt="member-2">
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div>
+                        <img src="img/smile.svg" alt="member-3">
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div>
+                        <img src="./img/smile.svg" alt="member-4">
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+
+                <button type="submit">REGISTER FOR FREE</button>
+            </div>
+        </section>
+        <!-- End of membership -->
+
+        <!-- FAQ section -->
+        <section class="faq-section">
+            <div class="container faq-container">
+                <p id="faq-head">F.A.Q.</p>
+                <div class="faq-article">
+                    <div class="faq-art-1">
+                        <div>
+                            <h2>How does this work?</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div>
+                            <h2>How Does This Work</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-art-2">
+                        <div>
+                            <h2>How Does This Work</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div>
+                            <h2>How Does This Work</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of FAQ -->
     </main>
 
     <footer>
-        <div>
-            <div>
-                <img src="" alt="footer image">
-                <div>
-                    <a href="#"><img src="" alt="image-1 with link"></a>
-                    <a href="#"><img src="" alt="image-2 with link"></a>
-                    <a href="#"><img src="" alt="image-3 with link"></a>
+        <div class="container footer-container">
+            <div class="footer-main">
+                <img src="./img/logo.svg" alt="footer image">
+
+                <div class="footer-links">
+                    <a href="#">
+                        <div class="holberton_school-icon-ic_facebook"></div>
+                    </a>
+                    <a href="#">
+                        <div class="holberton_school-icon-ic_twitter"></div>
+                    </a>
+                    <a href="#">
+                        <div class="holberton_school-icon-ic_instagram"></div>
+                    </a>
                 </div>
             </div>
 
-            <p>Lorem ipsum dolor</p>
+            <p>&copy;smileschool 2020</p>
         </div>
     </footer>
 </body>
